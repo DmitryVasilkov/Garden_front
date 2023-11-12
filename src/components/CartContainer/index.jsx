@@ -5,7 +5,7 @@ import s from './index.module.css'
 import { useForm } from 'react-hook-form';
 import empty_cart from "./empty_cart.jpg";
 import toast from 'react-hot-toast';
-import { firstOrder } from '../../requests/products';
+import { firstOrder } from '../../requests/order';
 import { clearAction } from '../../store/reducers/cartReducer';
 import { useCart } from '../hooks/useCart';
 

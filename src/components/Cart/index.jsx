@@ -29,7 +29,7 @@ export default function Cart({id, title, price, discont_price, image, count}) {
 
   return (
     <div className={s.cartItemWrap}>
-            <img src={`http://localhost:3333/${image}`} alt="" />
+            <img src={`garden-server.onrender.com/${image}`} alt="" />
             <div className={s.titleCountBlock}>
                 <p>{title}</p>
                 <div>

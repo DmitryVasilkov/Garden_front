@@ -3,7 +3,7 @@ import s from "./index.module.css";
 import img from './gnome111.png'
 import { useForm } from "react-hook-form";
 import toast from 'react-hot-toast';
-import { addSale } from "../../requests/products";
+import { addSale } from "../../requests/sale";
 
 
 export default function DiscountForm() {
