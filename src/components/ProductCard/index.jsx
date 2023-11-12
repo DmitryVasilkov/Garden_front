@@ -6,6 +6,7 @@ import { useDispatch } from 'react-redux';
 import { useCart } from '../hooks/useCart';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBasketShopping } from '@fortawesome/free-solid-svg-icons'
+import { LINK } from '../../requests/link';
 
 export default function ProductCard({id, image, title, price, discont_price}) {
 
@@ -19,7 +20,7 @@ export default function ProductCard({id, image, title, price, discont_price}) {
   return (
     <div className={s.wrapper}>
         <Link className={s.product} to={`/products/${id}`}>
-        <img src={`https://garden-server.onrender.com/${image}`} alt="" />
+        <img src={`${LINK}/${image}`} alt="" />
         <div>
             <div className={s.prices}>
                 <p className={s.price}>{discont_price ?? price}<span>$</span>{" "}</p>

@@ -28,14 +28,14 @@ export const getAllProducts = async(dispatch) => {
 //     .then(json => setResp(json))
 //   }
 
-  export const firstOrder = (newOrder, setResp) => {
-    fetch('https://garden-server.onrender.com/order/send', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json;charset=utf-8'
-      },
-      body: JSON.stringify(newOrder)
-    })
-    .then(res => res.json())
-    .then(json => setResp(json))
-  }
+  // export const firstOrder = (newOrder, setResp) => {
+  //   fetch('https://garden-server.onrender.com/order/send', {
+  //     method: 'POST',
+  //     headers: {
+  //       'Content-Type': 'application/json;charset=utf-8'
+  //     },
+  //     body: JSON.stringify(newOrder)
+  //   })
+  //   .then(res => res.json())
+  //   .then(json => setResp(json))
+  // }

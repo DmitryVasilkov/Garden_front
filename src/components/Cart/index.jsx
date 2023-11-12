@@ -3,6 +3,7 @@ import s from './index.module.css'
 import { useDispatch } from 'react-redux';
 import { decrementAction, deleteAction, incrementAction, setCountAction } from '../../store/reducers/cartReducer';
 import { CiCircleRemove, CiTrash } from "react-icons/ci";
+import { LINK } from '../../requests/link';
 
 export default function Cart({id, title, price, discont_price, image, count}) {
 
@@ -29,7 +30,7 @@ export default function Cart({id, title, price, discont_price, image, count}) {
 
   return (
     <div className={s.cartItemWrap}>
-            <img src={`garden-server.onrender.com/${image}`} alt="" />
+            <img src={`${LINK}/${image}`} alt="" />
             <div className={s.titleCountBlock}>
                 <p>{title}</p>
                 <div>
