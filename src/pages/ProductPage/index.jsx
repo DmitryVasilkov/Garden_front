@@ -25,7 +25,7 @@ export default function ProductPage() {
         <div className={s.mainWrap}>
                 <Title>{title}</Title>
                 <div className={s.productWrap}>
-                    <img src={`http://localhost:3333/${image}`} alt="" />
+                    <img src={`https://garden-server.onrender.com/${image}`} alt="" />
                     <div className={s.inform}>
                         <div className={s.priceBlock}>
                             <p className={s.price}>{discont_price ?? price}<span>$</span>{" "}</p>
