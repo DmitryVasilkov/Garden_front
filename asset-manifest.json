@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Garden_front/static/css/main.87e69f5e.css",
+    "main.js": "/Garden_front/static/js/main.587df62c.js",
+    "static/media/banner2.jpg": "/Garden_front/static/media/banner2.59434947b3f8d4e98f16.jpg",
+    "static/media/gnome111.png": "/Garden_front/static/media/gnome111.81a782ecb2748e1dc610.png",
+    "static/media/page_not_found.jpg": "/Garden_front/static/media/page_not_found.545715d714f4d535ab6d.jpg",
+    "static/media/empty_cart.jpg": "/Garden_front/static/media/empty_cart.ffe6ead835219a7d8bde.jpg",
+    "index.html": "/Garden_front/index.html",
+    "main.87e69f5e.css.map": "/Garden_front/static/css/main.87e69f5e.css.map",
+    "main.587df62c.js.map": "/Garden_front/static/js/main.587df62c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87e69f5e.css",
+    "static/js/main.587df62c.js"
+  ]
+}
